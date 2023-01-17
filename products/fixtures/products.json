@@ -1,0 +1,20 @@
+[{"pk": 1, "model": "products.product", "fields": {
+    "sku": "pp5001340155",
+    "name": "Black Gym Top", 
+    "description": "This black women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 15.99, 
+    "category": 1, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S42f3529f5d5f4e9b849bed3e4694c3afA.jpg?width=1000&height=1000&hash=2000", 
+    "image": "product images/clothes/tops/black-top.jpg"}}, 
+
+{"pk": 2, "model": "products.product", "fields": {
+    "sku": "pp5001600425", "name": "Blue Gym Top", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 15.99, 
+    "category": 1, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S91f22049392044308a82c76efa3a0f03D.jpg?width=1000&height=1000&hash=2000", 
+    "image": "product images/clothes/tops/blue-top.jpg"}}
+]
+
