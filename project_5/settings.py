@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.paypal',
     'allauth.socialaccount.providers.stripe',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
