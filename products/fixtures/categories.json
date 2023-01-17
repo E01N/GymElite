@@ -1,0 +1,21 @@
+[
+    {"pk": 1, "model": "products.category", "fields": {"name": "tops", "friendly_name": "Tops"}}, 
+    {"pk": 2, "model": "products.category", "fields": {"name": "bottoms", "friendly_name": "Bottoms"}}, 
+    {"pk": 3, "model": "products.category", "fields": {"name": "sets", "friendly_name": "Sets"}}, 
+    {"pk": 4, "model": "products.category", "fields": {"name": "accessories", "friendly_name": "Accessories"}},
+
+    {"pk": 5, "model": "products.category", "fields": {"name": "bags", "friendly_name": "Bags"}}, 
+    {"pk": 6, "model": "products.category", "fields": {"name": "bottles", "friendly_name": "Bottles"}}, 
+    {"pk": 7, "model": "products.category", "fields": {"name": "straps", "friendly_name": "Straps"}},
+    {"pk": 8, "model": "products.category", "fields": {"name": "accessories", "friendly_name": "Accessories"}},
+
+    {"pk": 9, "model": "products.category", "fields": {"name": "weights", "friendly_name": "Weights"}},
+    {"pk": 10, "model": "products.category", "fields": {"name": "cardio", "friendly_name": "Cardio"}},
+    {"pk": 11, "model": "products.category", "fields": {"name": "home equipment", "friendly_name": "Home Equipment"}},
+    {"pk": 12, "model": "products.category", "fields": {"name": "accessories", "friendly_name": "Accessories"}},
+
+    {"pk": 13, "model": "products.category", "fields": {"name": "clothing", "friendly_name": "Clothing"}},
+    {"pk": 14, "model": "products.category", "fields": {"name": "gym", "friendly_name": "Gym"}},
+    {"pk": 15, "model": "products.category", "fields": {"name": "Equipment", "friendly_name": "Clothing"}},
+    {"pk": 16, "model": "products.category", "fields": {"name": "accesories", "friendly_name": "Accessories"}}
+]
