@@ -6,7 +6,7 @@
     "category": 1, 
     "rating": 4.6, 
     "image_url": "https://ae01.alicdn.com/kf/S42f3529f5d5f4e9b849bed3e4694c3afA.jpg?width=1000&height=1000&hash=2000", 
-    "image": "product images/clothes/tops/black-top.jpg"}}, 
+    "image": "black-top.jpg"}}, 
 
 {"pk": 2, "model": "products.product", "fields": {
     "sku": "pp5001600425", "name": "Blue Gym Top", 
@@ -15,6 +15,6 @@
     "category": 1, 
     "rating": 4.6, 
     "image_url": "https://ae01.alicdn.com/kf/S91f22049392044308a82c76efa3a0f03D.jpg?width=1000&height=1000&hash=2000", 
-    "image": "product images/clothes/tops/blue-top.jpg"}}
+    "image": "blue-top.jpg"}}
 ]
 
