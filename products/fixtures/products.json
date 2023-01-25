@@ -9,12 +9,88 @@
     "image": "black-top.jpg"}}, 
 
 {"pk": 2, "model": "products.product", "fields": {
-    "sku": "pp5001600425", "name": "Blue Gym Top", 
+    "sku": "pp5001600425",
+    "name": "Blue Gym Top", 
     "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
     "price": 15.99, 
     "category": 1, 
     "rating": 4.6, 
     "image_url": "https://ae01.alicdn.com/kf/S91f22049392044308a82c76efa3a0f03D.jpg?width=1000&height=1000&hash=2000", 
-    "image": "blue-top.jpg"}}
+    "image": "blue-top.jpg"}},
+
+{"pk": 3, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Purple Gym Top", 
+    "description": "This purple women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 15.99, 
+    "category": 1, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S0ca87db6e03943d5a89c5ce96d8c9a5ei.jpg?width=1000&height=1000&hash=2000", 
+    "image": "purple-top.jpg"}},
+
+{"pk": 4, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Pink Gym Top", 
+    "description": "This pink women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 15.99, 
+    "category": 1, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S0ba6116e5c9242d289da4ce7ecb6ff151.jpg?width=1000&height=1000&hash=2000", 
+    "image": "pink-top.jpg"}},
+
+
+
+
+
+
+{"pk": 5, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Blue Leggings", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 23.99, 
+    "category": 2, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S8947204f5ddc4c1eaaeb54fc6203a8b4N.jpg", 
+    "image": "blue-pants.jpg"}},
+
+{"pk": 6, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Green Leggings", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 23.99, 
+    "category": 2, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S4e2d66ea2eea46579ea9f108f4e3598av.jpg", 
+    "image": "green-pants.jpg"}},
+
+{"pk": 7, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Black Leggings", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 23.99, 
+    "category": 2, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/Sf1449b0904ed4c95a242293c986a20a5T.jpg", 
+    "image": "black-pants.jpg"}},
+
+{"pk": 8, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Pink Leggings", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 23.99, 
+    "category": 2, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/Sb076f17584cd46de92700eda2d7dbb3d1.jpg", 
+    "image": "pink-pants.jpg"}},
+
+{"pk": 9, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Camo Leggings", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 23.99, 
+    "category": 2, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
+    "image": "camo-pants.jpg"}}
 ]
 
