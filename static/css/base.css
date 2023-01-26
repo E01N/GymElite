@@ -20,6 +20,16 @@ body {
     z-index: -1;
 }
 
+.card {
+    height: 100;
+    border: 0;
+}
+
+.card-img-top {
+    height: 225px;
+    width: 225px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
