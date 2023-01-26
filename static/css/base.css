@@ -10,6 +10,16 @@ body {
     font-family: 'Lato';
 }
 
+.overlay {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
@@ -60,7 +70,7 @@ body {
     background: #000 !important;
 }
 
-/* -------------------------------- Media Queries */
+/* Media Queries */
 
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
