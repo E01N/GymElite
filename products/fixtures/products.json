@@ -91,6 +91,39 @@
     "category": 2, 
     "rating": 4.6, 
     "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
-    "image": "camo-pants.jpg"}}
+    "image": "camo-pants.jpg"}}, 
+
+
+
+
+{"pk": 9, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Black Gym Set", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 39.99, 
+    "category": 3, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
+    "image": "black-set.jpg"}},
+
+{"pk": 9, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Grey Gym Set", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 39.99, 
+    "category": 3, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
+    "image": "grey-set.jpg"}},
+
+{"pk": 9, "model": "products.product", "fields": {
+    "sku": "pp5001600425",
+    "name": "Blue Gym Set", 
+    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "price": 39.99, 
+    "category": 3, 
+    "rating": 4.6, 
+    "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
+    "image": "blue-set.jpg"}}
 ]
 
