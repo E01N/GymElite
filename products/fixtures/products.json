@@ -1,5 +1,5 @@
 [{"pk": 1, "model": "products.product", "fields": {
-    "sku": "pp5001340155",
+    "sku": "T001",
     "name": "Black Gym Top", 
     "description": "This black women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
     "price": 15.99, 
@@ -9,9 +9,9 @@
     "image": "black-top.jpg"}}, 
 
 {"pk": 2, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "T002",
     "name": "Blue Gym Top", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "This blue women's gym top is designed with comfort and performance in mind. Made with a breathable and moisture-wicking fabric, it will keep you feeling fresh during even the most intense workouts. The top features a flattering and feminine cut that accentuates your curves, while providing a full range of motion. Whether you're hitting the weights or hitting the treadmill, this top is the perfect choice for your active lifestyle.", 
     "price": 15.99, 
     "category": 1, 
     "rating": 4.6, 
@@ -19,9 +19,9 @@
     "image": "blue-top.jpg"}},
 
 {"pk": 3, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "T003",
     "name": "Purple Gym Top", 
-    "description": "This purple women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "This purple women's gym top is the perfect addition to your workout wardrobe. Made with a stretchy and breathable fabric, it will keep you comfortable and cool throughout your workout. The top features a sleek and stylish design with a scoop neckline and a relaxed fit that flatters your figure. Whether you're into yoga, running or weightlifting, this top will keep you looking and feeling great. The color purple also gives a subtle statement to your athletic look.", 
     "price": 15.99, 
     "category": 1, 
     "rating": 4.6, 
@@ -29,9 +29,9 @@
     "image": "purple-top.jpg"}},
 
 {"pk": 4, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "T004",
     "name": "Pink Gym Top", 
-    "description": "This pink women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "This pink women's gym top is designed for style and performance. Made with a lightweight and breathable fabric, it will keep you cool and comfortable during your workout. The top features a flattering and feminine cut that accentuates your curves, while providing a full range of motion. The bright pink color adds a pop of color to your workout wardrobe and gives a fun and energetic look. Whether you're hitting the weights or hitting the treadmill, this top is the perfect choice for your active lifestyle.", 
     "price": 15.99, 
     "category": 1, 
     "rating": 4.6, 
@@ -44,9 +44,9 @@
 
 
 {"pk": 5, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "B001",
     "name": "Blue Leggings", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "These blue gym leggings are perfect for your active lifestyle. Made with a high-performance fabric, they are designed to keep you comfortable and dry during even the most intense workouts. The leggings feature a flattering and comfortable fit with a high waistband that sits comfortably on your waist and provide support. They also have a full-length design that covers the entire leg, making them ideal for activities like running, cycling, or weightlifting. The blue color gives a sleek and modern look to your athletic outfit.", 
     "price": 23.99, 
     "category": 2, 
     "rating": 4.6, 
@@ -54,9 +54,9 @@
     "image": "blue-pants.jpg"}},
 
 {"pk": 6, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "B002",
     "name": "Green Leggings", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "These green gym leggings are perfect for making a statement in your workout wardrobe. The leggings are made with a high-performance fabric that is designed to keep you comfortable and dry during even the most intense workouts. The leggings feature a flattering and comfortable fit with a high waistband that sits comfortably on your waist and provides support. The full-length design covers the entire leg, making them ideal for activities like running, cycling, or weightlifting. The green color gives a fresh and energetic look and adds a pop of color to your athletic outfit.", 
     "price": 23.99, 
     "category": 2, 
     "rating": 4.6, 
@@ -64,9 +64,9 @@
     "image": "green-pants.jpg"}},
 
 {"pk": 7, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "B003",
     "name": "Black Leggings", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "These black gym leggings are versatile, classic and perfect for your active lifestyle. Made with a high-performance fabric, they are designed to keep you comfortable and dry during even the most intense workouts. The leggings feature a flattering and comfortable fit with a high waistband that sits comfortably on your waist and provide support. They also have a full-length design that covers the entire leg, making them ideal for activities like running, cycling, or weightlifting. Black is a timeless color and can easily match with any top of your choice.", 
     "price": 23.99, 
     "category": 2, 
     "rating": 4.6, 
@@ -74,9 +74,9 @@
     "image": "black-pants.jpg"}},
 
 {"pk": 8, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "B004",
     "name": "Pink Leggings", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "These pink gym leggings are perfect for adding a pop of color to your workout wardrobe. Made with a high-performance fabric, they are designed to keep you comfortable and dry during even the most intense workouts. The leggings feature a flattering and comfortable fit with a high waistband that sits comfortably on your waist and provides support. They also have a full-length design that covers the entire leg, making them ideal for activities like running, cycling, or weightlifting. The pink color gives a fun and feminine look to your athletic outfit.", 
     "price": 23.99, 
     "category": 2, 
     "rating": 4.6, 
@@ -84,9 +84,9 @@
     "image": "pink-pants.jpg"}},
 
 {"pk": 9, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+    "sku": "B005",
     "name": "Camo Leggings", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "These grey camo gym leggings are the perfect blend of style and performance. Made with a high-performance fabric, they are designed to keep you comfortable and dry during even the most intense workouts. The leggings feature a flattering and comfortable fit with a high waistband that sits comfortably on your waist and provides support. They also have a full-length design that covers the entire leg, making them ideal for activities like running, cycling, or weightlifting. The grey camo print gives a trendy and edgy look to your athletic outfit.", 
     "price": 23.99, 
     "category": 2, 
     "rating": 4.6, 
@@ -96,34 +96,91 @@
 
 
 
-{"pk": 9, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+{"pk": 10, "model": "products.product", "fields": {
+    "sku": "S001",
     "name": "Black Gym Set", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "This blue women's gym set features a short sleeve top and shorts, designed for comfort and performance during your workout. The breathable and moisture-wicking fabric will keep you feeling fresh and the relaxed fit allows for a full range of motion. The set is perfect for any type of workout whether it be running, weightlifting or yoga.", 
     "price": 39.99, 
     "category": 3, 
     "rating": 4.6, 
     "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
     "image": "black-set.jpg"}},
 
-{"pk": 9, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+{"pk": 11, "model": "products.product", "fields": {
+    "sku": "S002",
     "name": "Grey Gym Set", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "This grey women's gym set features a short sleeve top and shorts, designed for comfort and performance during your workout. The breathable and moisture-wicking fabric will keep you feeling fresh and the relaxed fit allows for a full range of motion. The set is perfect for any type of workout whether it be running, weightlifting or yoga.", 
     "price": 39.99, 
     "category": 3, 
     "rating": 4.6, 
     "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
     "image": "grey-set.jpg"}},
 
-{"pk": 9, "model": "products.product", "fields": {
-    "sku": "pp5001600425",
+{"pk": 12, "model": "products.product", "fields": {
+    "sku": "S003",
     "name": "Blue Gym Set", 
-    "description": "This blue women's gym top is made with a moisture-wicking fabric to keep you cool and dry during your workout. It features a slim fit design with a scoop neckline and a racerback cut for maximum mobility. The top is made with a stretchy, breathable material that moves with you as you exercise. The fabric is also quick drying and easy to care for, making it perfect for active women. This top is a great choice for any type of workout, from yoga to running to weightlifting", 
+    "description": "This black women's gym set features a short sleeve top and shorts, designed for comfort and performance during your workout. The breathable and moisture-wicking fabric will keep you feeling fresh and the relaxed fit allows for a full range of motion. The set is perfect for any type of workout whether it be running, weightlifting or yoga.", 
     "price": 39.99, 
     "category": 3, 
     "rating": 4.6, 
     "image_url": "https://ae01.alicdn.com/kf/S4bc0e90b4eff419aa2b4b4c66eba731ch.jpg", 
-    "image": "blue-set.jpg"}}
+    "image": "blue-set.jpg"}},
+
+
+
+
+{"pk": 13, "model": "products.product", "fields": {
+    "sku": "CA001",
+    "name": "Hairbands", 
+    "description": "This women's gym hairband is designed to keep your hair in place and out of your face during your workout. It's made with a stretchy and comfortable fabric that will stay put during intense activities, and it has a non-slip grip to ensure it stays in place. The band is perfect for all hair types and can be worn casually or for any workout session. Available in variety of colors", 
+    "price": 5.99, 
+    "category": 4, 
+    "rating": 4.9, 
+    "image_url": "https://ae01.alicdn.com/kf/H530f4896d9d249069777727a8fa392bco.jpg", 
+    "image": "hairband.jpg"}},
+
+
+
+
+{"pk": 14, "model": "products.product", "fields": {
+    "sku": "BG001",
+    "name": "Purple Bag", 
+    "description": "This small purple women's gym bag is perfect for carrying all your essentials to and from the gym. It's made with durable material and has enough room to store a change of clothes, a pair of shoes, and your personal belongings. The bag features a comfortable shoulder strap and a small size making it easy to carry. The purple color gives a fun and energetic look to your gym routine.", 
+    "price": 30.00, 
+    "category": 5, 
+    "rating": 4.9, 
+    "image_url": "https://ae01.alicdn.com/kf/S23bee77928bf4a899a27107609e2b352j.jpeg", 
+    "image": "bag-purple-small.jpg"}},
+
+{"pk": 15, "model": "products.product", "fields": {
+    "sku": "BG002",
+    "name": "Pink Bag", 
+    "description": "This small pink women's gym bag is the perfect accessory for carrying your gym essentials. It is made with durable material and has enough room to store a change of clothes, a pair of shoes, and your personal belongings. The bag features a comfortable shoulder strap and a small size making it easy to carry. The pink color adds a feminine touch and a fun pop of color to your gym routine.", 
+    "price": 30.00, 
+    "category": 5, 
+    "rating": 4.9, 
+    "image_url": "https://ae01.alicdn.com/kf/Sfd9a8076ebf24ca09c83d21ef1c412ddp.jpg", 
+    "image": "bag-pink-small.jpg"}},
+
+{"pk": 16, "model": "products.product", "fields": {
+    "sku": "BG003",
+    "name": "Blue Bag", 
+    "description": "This small blue women's gym bag is designed to carry all your gym essentials in style. It's made with durable material and has enough room to store a change of clothes, a pair of shoes, and your personal belongings. The bag features a comfortable shoulder strap and a small size making it easy to carry. The blue color gives a fresh and energetic look to your gym routine.", 
+    "price": 30.00, 
+    "category": 5, 
+    "rating": 4.9, 
+    "image_url": "https://ae01.alicdn.com/kf/S01a0055857634c2bb04e5acd3dfcec737.jpeg", 
+    "image": "bag-blue-small.jpg"}},
+
+{"pk": 17, "model": "products.product", "fields": {
+    "sku": "BG004",
+    "name": "Large Green Bag", 
+    "description": "This large green women's gym bag is designed for the active woman. It's made with durable material and has plenty of room to store all your gym essentials, including a change of clothes, shoes, and personal belongings. The bag features a comfortable shoulder strap and a spacious design making it perfect for long trips. The green color gives a fresh and energetic look to your gym routine.", 
+    "price": 39.99, 
+    "category": 5, 
+    "rating": 4.9, 
+    "image_url": "https://ae01.alicdn.com/kf/Hb1e76f8d48ba468ba4418634389fc681Q.jpg", 
+    "image": "bag-green.jpg"}}
+
 ]
 
