@@ -2,7 +2,7 @@
     {"pk": 1, "model": "products.category", "fields": {"name": "tops", "friendly_name": "Tops"}}, 
     {"pk": 2, "model": "products.category", "fields": {"name": "bottoms", "friendly_name": "Bottoms"}}, 
     {"pk": 3, "model": "products.category", "fields": {"name": "sets", "friendly_name": "Sets"}}, 
-    {"pk": 4, "model": "products.category", "fields": {"name": "clothing accessories", "friendly_name": "Clothing Accessories"}},
+    {"pk": 4, "model": "products.category", "fields": {"name": "all clothing", "friendly_name": "All Clothing"}},
 
     {"pk": 5, "model": "products.category", "fields": {"name": "bags", "friendly_name": "Bags"}}, 
     {"pk": 6, "model": "products.category", "fields": {"name": "bottles", "friendly_name": "Bottles"}}, 
