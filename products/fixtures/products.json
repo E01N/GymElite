@@ -180,7 +180,50 @@
     "category": 5, 
     "rating": 4.9, 
     "image_url": "https://ae01.alicdn.com/kf/Hb1e76f8d48ba468ba4418634389fc681Q.jpg", 
-    "image": "bag-green.jpg"}}
+    "image": "bag-green.jpg"}},
+
+
+
+
+{"pk":18 , "model": "products.product", "fields": {
+    "sku": "BT001",
+    "name": "Black Bottle", 
+    "description": "A small black gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
+    "price": 12.99, 
+    "category": 6, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S96778c8da22c4f92b0bf19cc2fd1d153h.jpg", 
+    "image": "bottle-black.jpg"}},
+
+{"pk":19 , "model": "products.product", "fields": {
+    "sku": "BT002",
+    "name": "Blue/Orange Bottle", 
+    "description": "A small blue and orange gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
+    "price": 12.99, 
+    "category": 6, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S27242794c678471da11fb07d67900881Z.jpg", 
+    "image": "bottle-blue-orange.jpg"}},
+
+{"pk":20 , "model": "products.product", "fields": {
+    "sku": "BT003",
+    "name": "Blue/Pink Bottle", 
+    "description": "A small blue and pink gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
+    "price": 12.99, 
+    "category": 6, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S145205f620c849d8821a969d72bdd0479.jpg", 
+    "image": "bottle-blue-pink.jpg"}},
+
+{"pk":21 , "model": "products.product", "fields": {
+    "sku": "BT004",
+    "name": "Multi-Colored Bottle", 
+    "description": "A small multi-colored gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
+    "price": 12.99, 
+    "category": 6, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Sf2fa75db9c2d4c578060d39cc11fadb9V.jpg", 
+    "image": "bottle-multi.jpg"}}
 
 ]
 
