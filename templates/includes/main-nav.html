@@ -17,10 +17,10 @@
                 clothing
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Tops</a>
-                <a href="" class="dropdown-item">Bottoms</a>
-                <a href="" class="dropdown-item">Sets</a>
-                <a href="" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'products' %}?category=bottoms" class="dropdown-item">Bottoms</a>
+                <a href="{% url 'products' %}?category=sets" class="dropdown-item">Sets</a>
+                <a href="{% url 'products' %}?category=tops,bottoms,sets" class="dropdown-item">All Clothing</a>
             </div>
         </li>
 
@@ -29,10 +29,10 @@
                 gym
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Bags</a>
-                <a href="" class="dropdown-item">Bottles</a>
-                <a href="" class="dropdown-item">Straps</a>
-                <a href="" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=bags" class="dropdown-item">Bags</a>
+                <a href="{% url 'products' %}?category=bottles" class="dropdown-item">Bottles</a>
+                <a href="{% url 'products' %}?category=straps" class="dropdown-item">Straps</a>
+                <a href="{% url 'products' %}?category=gym-accessories" class="dropdown-item">Accessories</a>
             </div>
         </li>
 
@@ -41,10 +41,10 @@
                 equipment
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Weights</a>
-                <a href="" class="dropdown-item">Cardio</a>
-                <a href="" class="dropdown-item">Home Equipment</a>
-                <a href="" class="dropdown-item">Accessories</a>
+                <a href="{% url 'products' %}?category=weights" class="dropdown-item">Weights</a>
+                <a href="{% url 'products' %}?category=cardio" class="dropdown-item">Cardio</a>
+                <a href="{% url 'products' %}?category=home-equipment" class="dropdown-item">Home Equipment</a>
+                <a href="{% url 'products' %}?category=equipment-accessories" class="dropdown-item">Accessories</a>
             </div>
         </li>
 
@@ -52,11 +52,11 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 special offers
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">Clothes</a>
-                <a href="" class="dropdown-item">Gym</a>
-                <a href="" class="dropdown-item">Equipment</a>
-                <a href="" class="dropdown-item">Accessories</a>
+            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
+                <a href="{% url 'products' %}?category=clothing" class="dropdown-item">Clothes</a>
+                <a href="{% url 'products' %}?category=gym" class="dropdown-item">Gym</a>
+                <a href="{% url 'products' %}?category=equipment" class="dropdown-item">Equipment</a>
+                <a href="{% url 'products' %}?category=accessories" class="dropdown-item">Accessories</a>
             </div>
         </li>
     </ul>
