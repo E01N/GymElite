@@ -30,11 +30,11 @@
 
                             <!--card image-->
                             {% if product.image %}
-                            <a href="">
+                            <a href="{% url 'product_detail' product.id %}">
                                 <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}" max-width="100px" max-height="150px">
                             </a>
                             {% else %}
-                            <a href="">
+                            <a href="{% url 'product_detail' product.id %}">
                                 <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}" alt="{{ product.name }}">
                             </a>
                             {% endif %}
