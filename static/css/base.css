@@ -26,8 +26,8 @@ body {
 }
 
 .card-img-top {
-    height: 225px;
-    width: 225px;
+    height: 250px;
+    width: 250px;
 }
 
 /* from Bulma */
@@ -111,5 +111,28 @@ body {
 
     body {
         height: calc(100vh - 116px);
+    }
+}
+
+@media (max-width: 365px) {
+    .list-inline-item {
+        width: 80px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .list-inline-item {
+        max-width: 15px;
+    }
+    
+    .nav-bar {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 356px) {
+    .logo-font {
+        font-size: 1rem;
     }
 }
