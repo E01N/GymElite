@@ -130,19 +130,6 @@
 
 
 {"pk": 13, "model": "products.product", "fields": {
-    "sku": "CA001",
-    "name": "Hairbands", 
-    "description": "This women's gym hairband is designed to keep your hair in place and out of your face during your workout. It's made with a stretchy and comfortable fabric that will stay put during intense activities, and it has a non-slip grip to ensure it stays in place. The band is perfect for all hair types and can be worn casually or for any workout session. Available in variety of colors", 
-    "price": 5.99, 
-    "category": 8, 
-    "rating": 4.9, 
-    "image_url": "https://ae01.alicdn.com/kf/H530f4896d9d249069777727a8fa392bco.jpg", 
-    "image": "hairband.jpg"}},
-
-
-
-
-{"pk": 14, "model": "products.product", "fields": {
     "sku": "BG001",
     "name": "Purple Bag", 
     "description": "This small purple women's gym bag is perfect for carrying all your essentials to and from the gym. It's made with durable material and has enough room to store a change of clothes, a pair of shoes, and your personal belongings. The bag features a comfortable shoulder strap and a small size making it easy to carry. The purple color gives a fun and energetic look to your gym routine.", 
@@ -152,7 +139,7 @@
     "image_url": "https://ae01.alicdn.com/kf/S23bee77928bf4a899a27107609e2b352j.jpeg", 
     "image": "bag-purple-small.jpg"}},
 
-{"pk": 15, "model": "products.product", "fields": {
+{"pk": 14, "model": "products.product", "fields": {
     "sku": "BG002",
     "name": "Pink Bag", 
     "description": "This small pink women's gym bag is the perfect accessory for carrying your gym essentials. It is made with durable material and has enough room to store a change of clothes, a pair of shoes, and your personal belongings. The bag features a comfortable shoulder strap and a small size making it easy to carry. The pink color adds a feminine touch and a fun pop of color to your gym routine.", 
@@ -162,7 +149,7 @@
     "image_url": "https://ae01.alicdn.com/kf/Sfd9a8076ebf24ca09c83d21ef1c412ddp.jpg", 
     "image": "bag-pink-small.jpg"}},
 
-{"pk": 16, "model": "products.product", "fields": {
+{"pk": 15, "model": "products.product", "fields": {
     "sku": "BG003",
     "name": "Blue Bag", 
     "description": "This small blue women's gym bag is designed to carry all your gym essentials in style. It's made with durable material and has enough room to store a change of clothes, a pair of shoes, and your personal belongings. The bag features a comfortable shoulder strap and a small size making it easy to carry. The blue color gives a fresh and energetic look to your gym routine.", 
@@ -172,7 +159,7 @@
     "image_url": "https://ae01.alicdn.com/kf/S01a0055857634c2bb04e5acd3dfcec737.jpeg", 
     "image": "bag-blue-small.jpg"}},
 
-{"pk": 17, "model": "products.product", "fields": {
+{"pk": 16, "model": "products.product", "fields": {
     "sku": "BG004",
     "name": "Large Green Bag", 
     "description": "This large green women's gym bag is designed for the active woman. It's made with durable material and has plenty of room to store all your gym essentials, including a change of clothes, shoes, and personal belongings. The bag features a comfortable shoulder strap and a spacious design making it perfect for long trips. The green color gives a fresh and energetic look to your gym routine.", 
@@ -185,7 +172,7 @@
 
 
 
-{"pk":18 , "model": "products.product", "fields": {
+{"pk":17 , "model": "products.product", "fields": {
     "sku": "BT001",
     "name": "Black Bottle", 
     "description": "A small black gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
@@ -195,7 +182,7 @@
     "image_url": "https://ae01.alicdn.com/kf/S96778c8da22c4f92b0bf19cc2fd1d153h.jpg", 
     "image": "bottle-black.jpg"}},
 
-{"pk":19 , "model": "products.product", "fields": {
+{"pk":18 , "model": "products.product", "fields": {
     "sku": "BT002",
     "name": "Blue/Orange Bottle", 
     "description": "A small blue and orange gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
@@ -205,7 +192,7 @@
     "image_url": "https://ae01.alicdn.com/kf/S27242794c678471da11fb07d67900881Z.jpg", 
     "image": "bottle-blue-orange.jpg"}},
 
-{"pk":20 , "model": "products.product", "fields": {
+{"pk": 19, "model": "products.product", "fields": {
     "sku": "BT003",
     "name": "Blue/Pink Bottle", 
     "description": "A small blue and pink gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
@@ -215,7 +202,7 @@
     "image_url": "https://ae01.alicdn.com/kf/S145205f620c849d8821a969d72bdd0479.jpg", 
     "image": "bottle-blue-pink.jpg"}},
 
-{"pk":21 , "model": "products.product", "fields": {
+{"pk": 20, "model": "products.product", "fields": {
     "sku": "BT004",
     "name": "Multi-Colored Bottle", 
     "description": "A small multi-colored gym water bottle, perfect for staying hydrated during workouts. Made with durable materials, leak-proof design, and easy to carry handle. Suitable for cold and hot drinks. With a capacity of 1L", 
@@ -223,7 +210,235 @@
     "category": 6, 
     "rating": 4.8, 
     "image_url": "https://ae01.alicdn.com/kf/Sf2fa75db9c2d4c578060d39cc11fadb9V.jpg", 
-    "image": "bottle-multi.jpg"}}
+    "image": "bottle-multi.jpg"}},
 
+
+
+
+{"pk": 21, "model": "products.product", "fields": {
+    "sku": "ST001",
+    "name": "Black Lifting Straps", 
+    "description": "Women's black lifting straps are a weightlifting accessory designed to help female athletes securely grip and lift heavy weights. They are typically made of durable materials such as nylon or leather, and feature a loop that wraps around the wrist and a second loop that attaches to the weight. These straps are designed to reduce stress on the hands and wrists during heavy lifting, allowing for a more comfortable and effective workout.", 
+    "price": 15.00, 
+    "category": 7, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/H041e73f241724f60a7af883e6cfdf388p.jpg", 
+    "image": "straps-black.jpg"}},
+
+{"pk": 22, "model": "products.product", "fields": {
+    "sku": "ST002",
+    "name": "Green Lifting Straps", 
+    "description": "Women's green lifting straps are a weightlifting accessory designed to help female athletes securely grip and lift heavy weights. They are typically made of durable materials such as nylon or leather, and feature a loop that wraps around the wrist and a second loop that attaches to the weight. These straps are designed to reduce stress on the hands and wrists during heavy lifting, allowing for a more comfortable and effective workout.", 
+    "price": 15.00, 
+    "category": 7, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/H209fdb74bfab47abb36cc0440ba09ae1Z.jpg", 
+    "image": "straps-green.jpg"}},
+
+{"pk": 23, "model": "products.product", "fields": {
+    "sku": "ST003",
+    "name": "Pink Lifting Straps", 
+    "description": "Women's pink lifting straps are a weightlifting accessory designed to help female athletes securely grip and lift heavy weights. They are typically made of durable materials such as nylon or leather, and feature a loop that wraps around the wrist and a second loop that attaches to the weight. These straps are designed to reduce stress on the hands and wrists during heavy lifting, allowing for a more comfortable and effective workout.", 
+    "price": 15.00, 
+    "category": 7, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Hd9010bd615ea400992104916fb03575a6.jpg", 
+    "image": "straps-pink.jpg"}},
+
+{"pk": 24, "model": "products.product", "fields": {
+    "sku": "AS001",
+    "name": "Black Ankle Strap", 
+    "description": "Gym ankle straps are a fitness accessory designed to attach to cable machines and other exercise equipment. They are worn around the ankle and allow for targeted lower body exercises such as leg extensions, leg curls, and calf raises. They are typically made of durable materials such as nylon or leather and feature a D-ring or other attachment point for attaching to a cable machine. They provide support and stability to the ankle joint during exercises, allowing for a safer and more effective workout.", 
+    "price": 10.00, 
+    "category": 7, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Sf46ec46079c74a128e68c70494dad168D.jpg", 
+    "image": "ankle-strap-black.jpg"}},
+
+{"pk": 25, "model": "products.product", "fields": {
+    "sku": "AS002",
+    "name": "Pink Ankle Strap", 
+    "description": "Gym ankle straps are a fitness accessory designed to attach to cable machines and other exercise equipment. They are worn around the ankle and allow for targeted lower body exercises such as leg extensions, leg curls, and calf raises. They are typically made of durable materials such as nylon or leather and feature a D-ring or other attachment point for attaching to a cable machine. They provide support and stability to the ankle joint during exercises, allowing for a safer and more effective workout.", 
+    "price": 10.00, 
+    "category": 7, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S01c92d2d767c48bb82b85eade620a354J.jpg", 
+    "image": "ankle-strap-pink.jpg"}},
+
+{"pk": 26, "model": "products.product", "fields": {
+    "sku": "AS001",
+    "name": "Purple Ankle Strap", 
+    "description": "Gym ankle straps are a fitness accessory designed to attach to cable machines and other exercise equipment. They are worn around the ankle and allow for targeted lower body exercises such as leg extensions, leg curls, and calf raises. They are typically made of durable materials such as nylon or leather and feature a D-ring or other attachment point for attaching to a cable machine. They provide support and stability to the ankle joint during exercises, allowing for a safer and more effective workout.", 
+    "price": 10.00, 
+    "category": 7, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Se1282c57ee1143f3850ed4a5a5c38ce3I.jpg", 
+    "image": "ankle-strap-purple.jpg"}},
+
+
+
+
+
+{"pk": 27, "model": "products.product", "fields": {
+    "sku": "CA001",
+    "name": "Hairbands", 
+    "description": "This women's gym hairband is designed to keep your hair in place and out of your face during your workout. It's made with a stretchy and comfortable fabric that will stay put during intense activities, and it has a non-slip grip to ensure it stays in place. The band is perfect for all hair types and can be worn casually or for any workout session. Available in variety of colors", 
+    "price": 5.99, 
+    "category": 8, 
+    "rating": 4.9, 
+    "image_url": "https://ae01.alicdn.com/kf/H530f4896d9d249069777727a8fa392bco.jpg", 
+    "image": "hairband.jpg"}},
+
+{"pk": 28, "model": "products.product", "fields": {
+    "sku": "G001",
+    "name": "Black Gym Gloves", 
+    "description": "Women's black weightlifting gloves are a piece of workout equipment designed to protect the hands and improve grip during weightlifting exercises. They are typically made of durable materials such as leather or synthetic leather and feature reinforced padding to protect the palms and fingers. They also have an adjustable wrist strap for a secure fit, some gloves also have breathable mesh material to keep the hand cool and dry during exercise. They provide a better grip on the barbell or dumbbell, reduces the risk of calluses, and protects the hands from blisters.", 
+    "price": 15.00, 
+    "category": 8, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S46c3d05b908e49b79f55f4a8fb8c7cdeJ.jpg", 
+    "image": "gloves-black.jpg"}},
+
+{"pk": 29, "model": "products.product", "fields": {
+    "sku": "G002",
+    "name": "Pink Gym Gloves", 
+    "description": "Women's pink weightlifting gloves are a piece of workout equipment designed to protect the hands and improve grip during weightlifting exercises. They are typically made of durable materials such as leather or synthetic leather and feature reinforced padding to protect the palms and fingers. They also have an adjustable wrist strap for a secure fit, some gloves also have breathable mesh material to keep the hand cool and dry during exercise. They provide a better grip on the barbell or dumbbell, reduces the risk of calluses, and protects the hands from blisters.", 
+    "price": 15.00, 
+    "category": 8, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Sb10a5a333c7246f0926e1efdcf2bfb2c9.jpg", 
+    "image": "gloves-pink.jpg"}},
+
+{"pk": 30, "model": "products.product", "fields": {
+    "sku": "G003",
+    "name": "Grey Gym Gloves", 
+    "description": "Women's grey weightlifting gloves are a piece of workout equipment designed to protect the hands and improve grip during weightlifting exercises. They are typically made of durable materials such as leather or synthetic leather and feature reinforced padding to protect the palms and fingers. They also have an adjustable wrist strap for a secure fit, some gloves also have breathable mesh material to keep the hand cool and dry during exercise. They provide a better grip on the barbell or dumbbell, reduces the risk of calluses, and protects the hands from blisters.", 
+    "price": 15.00, 
+    "category": 8, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S71eff45c75f74f79bb7fecdcde0139aax.jpg", 
+    "image": "gloves-grey.jpg"}},
+
+
+
+
+
+
+{"pk": 31, "model": "products.product", "fields": {
+    "sku": "W001",
+    "name": "1.5KG Dumbell", 
+    "description": "This 1.5kg dumbbell is a small, compact weightlifting equipment designed for resistance training. Made of durable materials such as cast iron and coated with neoprene for a comfortable grip. It's perfect for toning, building muscle and increasing overall fitness, also suitable for beginners and experienced weightlifters.", 
+    "price": 19.99, 
+    "category": 9, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/H6d36a86d49694bf5bb9941357c79a5b45.jpg", 
+    "image": "dumbell-pink.jpg"}},
+
+{"pk": 32, "model": "products.product", "fields": {
+    "sku": "W002",
+    "name": "2KG Dumbell", 
+    "description": "This 2kg dumbbell is a small, compact weightlifting equipment designed for resistance training. Made of durable materials such as cast iron and coated with neoprene for a comfortable grip. It's perfect for toning, building muscle and increasing overall fitness, also suitable for beginners and experienced weightlifters.", 
+    "price": 20.99, 
+    "category": 9, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/H6847615a90e4492abe65cd38380e491aU.jpg", 
+    "image": "dumbell-2kg.jpg"}},
+
+{"pk": 33, "model": "products.product", "fields": {
+    "sku": "W003",
+    "name": "3KG Dumbell", 
+    "description": "This 3kg dumbbell is a small, compact weightlifting equipment designed for resistance training. Made of durable materials such as cast iron and coated with neoprene for a comfortable grip. It's perfect for toning, building muscle and increasing overall fitness, also suitable for beginners and experienced weightlifters.", 
+    "price": 22.99, 
+    "category": 9, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Hcf11c05250b946b79c536777c20f4756h.jpg", 
+    "image": "dumbell-3kg.jpg"}},
+
+{"pk": 34, "model": "products.product", "fields": {
+    "sku": "W004",
+    "name": "Adjustable Kettlebell", 
+    "description": "A kettlebell is a cast iron or cast steel weight shaped like a ball with a handle on top, used for a variety of strength and cardio exercises. It's versatile, compact and great for full-body workouts that improves strength, endurance, balance and flexibility. Kettlebells come in various weight sizes and are suitable for both beginners and experienced fitness enthusiasts.", 
+    "price": 75.00, 
+    "category": 9, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Haafbd284de1e430c97244fb99ab3d270s.jpg", 
+    "image": "kettlebell.jpg"}},
+
+
+
+
+{"pk": 35, "model": "products.product", "fields": {
+    "sku": "SK001",
+    "name": "Skipping Rope", 
+    "description": "", 
+    "price": 20.00, 
+    "category": 10, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S71593523a2604ee7bba29d4f3459e410S.jpg?width=800&height=800&hash=1600", 
+    "image": "skipping-rope.jpg"}},
+
+{"pk": 36, "model": "products.product", "fields": {
+    "sku": "T001",
+    "name": "Blue Gym Towel", 
+    "description": "This small gym towel is a compact, absorbent towel designed for use during physical activity. They are typically made of soft, quick-drying materials such as microfiber and are small enough to be conveniently carried in a gym bag or pocket. These towels are used for wiping sweat, cleaning equipment and for providing a barrier between the skin and equipment. They are also machine-washable and durable for long-term use. They are a must-have item for any gym goers and fitness enthusiasts.", 
+    "price": 8.99, 
+    "category": 10, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S3771b83b0c6140b89d8db64da0c4b4a7i.jpg", 
+    "image": "towel-blue.jpg"}},
+
+{"pk": 37, "model": "products.product", "fields": {
+    "sku": "T002",
+    "name": "Green Gym Towel", 
+    "description": "his small gym towel is a compact, absorbent towel designed for use during physical activity. They are typically made of soft, quick-drying materials such as microfiber and are small enough to be conveniently carried in a gym bag or pocket. These towels are used for wiping sweat, cleaning equipment and for providing a barrier between the skin and equipment. They are also machine-washable and durable for long-term use. They are a must-have item for any gym goers and fitness enthusiasts.", 
+    "price": 8.99, 
+    "category": 10, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S605d49b58e794043981d4cd404163093Z.jpg", 
+    "image": "towel-green.jpg"}},
+
+{"pk": 38, "model": "products.product", "fields": {
+    "sku": "T003",
+    "name": "Purple Gym Towel", 
+    "description": "his small gym towel is a compact, absorbent towel designed for use during physical activity. They are typically made of soft, quick-drying materials such as microfiber and are small enough to be conveniently carried in a gym bag or pocket. These towels are used for wiping sweat, cleaning equipment and for providing a barrier between the skin and equipment. They are also machine-washable and durable for long-term use. They are a must-have item for any gym goers and fitness enthusiasts.", 
+    "price": 8.99, 
+    "category": 10, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/Sdc3f22b8adc442b5a46332ec16f9ebf9r.jpg", 
+    "image": "towel-purple.jpg"}},
+
+
+
+
+
+{"pk": 39, "model": "products.product", "fields": {
+    "sku": "FR001",
+    "name": "Pink Foam Roller", 
+    "description": "A foam roller is a cylindrical piece of foam used for self-massage and muscle recovery. It's made of a durable, high-density foam and comes in various sizes. It's great for relieving muscle soreness, increasing flexibility and circulation, and breaking up muscle knots and tension. foam roller can be used to massage various parts of the body such as legs, back, shoulders, and arms. It's easy to use, lightweight and portable, making it a great addition to any home gym or workout routine.", 
+    "price": 15.00, 
+    "category": 11, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S720aafd1ea6f41a7bc87331fc42f1f77N.jpg", 
+    "image": "foam-roller-pink.jpg"}},
+
+{"pk": 40, "model": "products.product", "fields": {
+    "sku": "FR002",
+    "name": "Purple Foam Roller", 
+    "description": "A foam roller is a cylindrical piece of foam used for self-massage and muscle recovery. It's made of a durable, high-density foam and comes in various sizes. It's great for relieving muscle soreness, increasing flexibility and circulation, and breaking up muscle knots and tension. foam roller can be used to massage various parts of the body such as legs, back, shoulders, and arms. It's easy to use, lightweight and portable, making it a great addition to any home gym or workout routine.", 
+    "price": 15.00, 
+    "category": 11, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/S17952faab99f4a1aa6d9d75e0567321cu.jpg", 
+    "image": "foam-roller-purple.jpg"}},
+
+{"pk": 41, "model": "products.product", "fields": {
+    "sku": "RB001",
+    "name": "Resistance Bands Set", 
+    "description": "A set of elastic bands of varying resistance levels, typically used for strength training and physical therapy. They come in different lengths, widths, and resistance levels, and can be used for a variety of exercises such as pull-ups, squats, and arm curls. They are lightweight, portable, and easy to use, making them great for home workouts or travel. They are suitable for people of all fitness levels and can be used to improve strength, flexibility, and mobility.", 
+    "price": 45.00, 
+    "category": 11, 
+    "rating": 4.8, 
+    "image_url": "https://ae01.alicdn.com/kf/H58a93cf6559e4247993eea6d2e1e2ba3v.jpg", 
+    "image": "bands-dark-top.jpg"}}
 ]
 

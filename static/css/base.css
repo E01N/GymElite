@@ -121,14 +121,8 @@ body {
 
 }
 
-@media (max-width: 380px) {
-    .list-inline-item {
-        max-width: 15px;
-    }
-    
-    .nav-bar {
-        padding: 5px;
-    }
+.nav-bar {
+        padding: 0.5rem 3rem;
 }
 
 @media (max-width: 356px) {
