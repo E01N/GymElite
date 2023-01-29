@@ -23,7 +23,7 @@ def add_to_bag(request, item_id):
         bag[item_id] += quantity
     else:
         bag[item_id] = quantity
-        message.success(request, f'Added {product_name} to your bag')
+        messages.success(request, f'Added {product_name} to your bag')
     
     request.session['bag'] = bag
     print(request.session['bag'])
