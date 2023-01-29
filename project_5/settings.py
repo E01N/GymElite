@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.stripe',
     'home',
     'products',
+    'bag',
 ]
 
 MIDDLEWARE = [
