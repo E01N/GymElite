@@ -20,6 +20,11 @@ body {
     z-index: -1;
 }
 
+a.category-badge > span.badge.hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
 .card {
     height: 100;
     border: 0;
