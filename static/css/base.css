@@ -38,6 +38,21 @@ a.category-badge > span.badge:hover {
     cursor: pointer;
 }
 
+.message-container {
+    position: fixed;
+    top: 72px;
+    right: 15px;
+    z-index: 99999;
+}
+
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 .card {
     height: 100;
     border: 0;
