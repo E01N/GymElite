@@ -378,7 +378,7 @@
     "image": "skipping-rope.jpg"}},
 
 {"pk": 36, "model": "products.product", "fields": {
-    "sku": "T001",
+    "sku": "TW001",
     "name": "Blue Gym Towel", 
     "description": "This small gym towel is a compact, absorbent towel designed for use during physical activity. They are typically made of soft, quick-drying materials such as microfiber and are small enough to be conveniently carried in a gym bag or pocket. These towels are used for wiping sweat, cleaning equipment and for providing a barrier between the skin and equipment. They are also machine-washable and durable for long-term use. They are a must-have item for any gym goers and fitness enthusiasts.", 
     "price": 8.99, 
@@ -388,7 +388,7 @@
     "image": "towel-blue.jpg"}},
 
 {"pk": 37, "model": "products.product", "fields": {
-    "sku": "T002",
+    "sku": "TW002",
     "name": "Green Gym Towel", 
     "description": "his small gym towel is a compact, absorbent towel designed for use during physical activity. They are typically made of soft, quick-drying materials such as microfiber and are small enough to be conveniently carried in a gym bag or pocket. These towels are used for wiping sweat, cleaning equipment and for providing a barrier between the skin and equipment. They are also machine-washable and durable for long-term use. They are a must-have item for any gym goers and fitness enthusiasts.", 
     "price": 8.99, 
@@ -398,7 +398,7 @@
     "image": "towel-green.jpg"}},
 
 {"pk": 38, "model": "products.product", "fields": {
-    "sku": "T003",
+    "sku": "TW003",
     "name": "Purple Gym Towel", 
     "description": "his small gym towel is a compact, absorbent towel designed for use during physical activity. They are typically made of soft, quick-drying materials such as microfiber and are small enough to be conveniently carried in a gym bag or pocket. These towels are used for wiping sweat, cleaning equipment and for providing a barrier between the skin and equipment. They are also machine-washable and durable for long-term use. They are a must-have item for any gym goers and fitness enthusiasts.", 
     "price": 8.99, 
