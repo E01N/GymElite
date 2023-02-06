@@ -107,6 +107,7 @@
                         <div class="mb-3" id="card-element"></div>
                         <!--display payment error-->
                         <div class="mb-3 text-danger" id="card-errors" role="alert"></div>
+                        <input type="hidden" value="{{ client_secret }}" name="client_secret">
                     </fieldset>
 
                     <!--link back to bag-->
@@ -136,6 +137,13 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div id="loading-overlay">
+        <h1 class="text-light logo-font loading-spinner">
+            <span class="icon">
+                <i class="fas fa-3x fa-sync-alt fa-spin"></i>
+            </span>
+        </h1>
     </div>
 {% endblock %}
 
