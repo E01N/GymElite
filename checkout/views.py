@@ -53,42 +53,42 @@ def checkout(request):
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your bag wasn't found. "
-                        "Please call us for assistance")
+                        "Please call us for assistance!")
                     )
                     order.delete()
                     return redirect(reverse('view_bag'))
-            
+
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
         else:
-            messages.error(request, 'There is an error in your form. \
+            messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
     else:
         bag = request.session.get('bag', {})
         if not bag:
-            messages.error(request, "Your bag is Empty")
+            messages.error(request, "There's nothing in your bag at the moment")
             return redirect(reverse('products'))
 
         current_bag = bag_contents(request)
         total = current_bag['grand_total']
         stripe_total = round(total * 100)
         stripe.api_key = stripe_secret_key
-        stripe.PaymentIntent.create(
+        intent = stripe.PaymentIntent.create(
             amount=stripe_total,
             currency=settings.STRIPE_CURRENCY,
         )
 
-    order_form = OrderForm()
+        order_form = OrderForm()
 
     if not stripe_public_key:
-        message.warning(request, 'Stripe public key missing. \
-            Did you forget to set in your environment?')
+        messages.warning(request, 'Stripe public key is missing. \
+            Did you forget to set it in your environment?')
 
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
-        'stripe_public_key': 'stripe_public_key',
-        'client_secret': 'intent.client_secret',
+        'stripe_public_key': stripe_public_key,
+        'client_secret': intent.client_secret,
     }
 
     return render(request, template, context)
@@ -100,7 +100,7 @@ def checkout_success(request, order_number):
     """
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
-    messages.success(request, f'Success! \
+    messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
 
