@@ -47,14 +47,13 @@ INSTALLED_APPS = [
     'allauth.socialaccount.providers.facebook',
     'allauth.socialaccount.providers.google',
     'allauth.socialaccount.providers.instagram',
-    'allauth.socialaccount.providers.microsoft',
-    'allauth.socialaccount.providers.paypal',
-    'allauth.socialaccount.providers.stripe',
+    'allauth.socialaccount.providers.twitter',
     'home',
     'products',
     'bag',
     'checkout',
     'profiles',
+    'diet_planner',
     # Other
     'crispy_forms',
 ]
