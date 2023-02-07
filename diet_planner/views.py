@@ -14,6 +14,7 @@ def create_profile(request):
         form = UserProfileForm()
     return render(request, 'create_profile.html', {'form': form})
 
+
 def update_profile(request, pk):
     user_profile = UserProfile.objects.get(pk=pk)
     if request.method == 'POST':
@@ -24,6 +25,7 @@ def update_profile(request, pk):
     else:
         form = UserProfileForm(instance=user_profile)
     return render(request, 'update_profile.html', {'form': form})
+
 
 @login_required
 def diet_plan(request):
@@ -38,6 +40,7 @@ def diet_plan(request):
         'calorie_needs': calorie_needs,
         'foods': foods
     })
+
 
 def calculate_calorie_needs(age, weight, height, gender, activity_level, goal):
     weight_in_kg = weight / 2.2
@@ -83,6 +86,7 @@ def generate_diet_plan(user_profile):
 
     return foods
 
+
 def generate_workout_plan(user_profile):
     # Example implementation: return a list of exercises based on the user's workout goal
     if user_profile.workout_goal == "Muscle gain":
@@ -93,4 +97,3 @@ def generate_workout_plan(user_profile):
         exercises = ["Barbell squat", "Deadlift", "Barbell bench press", "Dumbbell rows", "Running", "Cycling", "Swimming", "Jump rope"]
 
     return exercises
-
