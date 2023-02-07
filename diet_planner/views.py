@@ -29,13 +29,45 @@ def update_profile(request, pk):
 
 @login_required
 def diet_plan(request):
-    age = int(request.POST.get('age'))
-    weight = int(request.POST.get('weight'))
-    height = int(request.POST.get('height'))
+    age = request.POST.get('age')
+    if age is not None:
+        age = int(age)
+    else:
+        age = 0
+
+    weight = request.POST.get('weight')
+    if weight is not None:
+        weight = int(weight)
+    else:
+        weight = 0
+
+    height = request.POST.get('height')
+    if height is not None:
+        height = int(height)
+    else:
+        height = 0
+
     activity_level = request.POST.get('activity_level')
+    if activity_level is not None:
+        activity_level = int(activity_level)
+    else:
+        activity_level = 0
+
     goal = request.POST.get('goal')
-    calorie_needs = calculate_calorie_needs(age, weight, height, activity_level, goal)
+    if goal is not None:
+        goal = int(goal)
+    else:
+        goal = 0
+
+    calorie_needs = calculate_calorie_needs(age, weight, height,
+                                            activity_level, goal)
+    if calorie_needs is not None:
+        calorie_needs = int(calorie_needs)
+    else:
+        calorie_needs = 0
+
     foods = generate_diet_plan(calorie_needs)
+
     return render(request, 'diet_plan.html', {
         'calorie_needs': calorie_needs,
         'foods': foods
