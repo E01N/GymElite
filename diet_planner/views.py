@@ -59,8 +59,7 @@ def diet_plan(request):
     else:
         goal = 0
 
-    calorie_needs = calculate_calorie_needs(age, weight, height,
-                                            activity_level, goal)
+    calorie_needs = calculate_calorie_needs(age, weight, height, activity_level, goal)
     if calorie_needs is not None:
         calorie_needs = int(calorie_needs)
     else:
@@ -81,6 +80,8 @@ def calculate_calorie_needs(age, weight, height, gender, activity_level, goal):
         BMR = 88.362 + (13.397 * weight_in_kg) + (4.799 * height_in_cm) - (5.677 * age)
     else:
         BMR = 447.593 + (9.247 * weight_in_kg) + (3.098 * height_in_cm) - (4.330 * age)
+
+    TDEE = BMR
     if activity_level == 'sedentary':
         TDEE = BMR * 1.2
     elif activity_level == 'lightly_active':
@@ -91,6 +92,7 @@ def calculate_calorie_needs(age, weight, height, gender, activity_level, goal):
         TDEE = BMR * 1.725
     else:
         TDEE = BMR * 1.9
+
     if goal == 'weight_loss':
         calorie_needs = TDEE - 500
     elif goal == 'maintenance':
