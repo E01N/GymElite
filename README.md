@@ -4,65 +4,73 @@
 
  ### GymELite is a one-stop shop for individuals looking to improve their physical fitness. It offers a wide range of high-quality workout gear and also provides customers with personalized diet and exercise plans. GymElite aims to provide customers with the tools and resources they need to achieve their fitness goals, in a convenient and accessible way.
 ---
-## [View the deployed website here!](https://e01n.github.io/Good-Taco/)
 ---
 ## Features 
 
-
-### Existing Features
+Gym Elite offers several key features to help users reach their fitness goals, including:
 
 - __Landing Page__
 
-  - A simple yet effective homepage that gives users access to product, shopping cart and login pages
-  - This section will allow the user to easily navigate to the section they desire across all devices. 
+  - A landing page that provides easy access to the product, shopping cart, and login pages, allowing users to quickly find the information they need. 
 
 ![Landing Page](ReadmeMedia/landingpage.jpg)
 
 - __Products__
 
-  - The product page gives users a grid display of the products available to purchase on the site.
+  - A product page that displays a grid of available products, making it easy for users to browse and choose the gear they need.
 
 ![Products](ReadmeMedia/products.jpg)
 
-- __Gallery Page__
+- __Product Added__ 
 
-  - I created an interactive gallery with an video slider showing videos of food.
+  - A pop-up notification that verifies when a product has been added to the user's shopping cart, with a link to the checkout page.
 
-![Gallery Secton](assets/images/Gallery.png)
+![Added](ReadmeMedia/added.jpg)
 
-- __Reservations Page__
+- __Cart__
 
-  - The Reservation page gives the user the option to book a table at a said time and date and also the amout of people
-![Reservation Page](assets/images/Reservation.png)
+  - A cart page that displays the contents of the user's cart, with options to keep shopping or move on to the secure checkout.
 
-- __The Footer__ 
+![Cart](ReadmeMedia/cart.jpg)
 
-  - The footer is situated on the bottom of all three pages to give the user access to the social media tags.
-  - The footer section includes links to the relevant social media sites. The links will open a new tab to the relevant link to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media.
+- __Checkout__
 
-![Footer](assets/images/Footer.png)
+  - A checkout page that presents a form for shipping and billing details, allowing users to submit their order with confidence.
+![Checkout](ReadmeMedia/checkout.jpg)
+
+- __Order Confirmed__ 
+
+  - An order confirmation page that provides details on the user's order and a pop-up notification in the top-left corner.
+
+![Confirmation](ReadmeMedia/confirm.jpg)
+
+- __Admin__ 
+
+  - An admin page with information on orders, user profiles, products, and categories.
+
+![Admin](ReadmeMedia/admin.jpg)
 
 
-### Features Left to Implement
 
-- I couldn't get the reservations app to work correctly as i was having huge difficulties with django
+### Future Plans
+
+- Although the diet and exercise plans and user profiles are not yet fully implemented, I am dedicated to continuing work on Gym Elite to bring it to a place I can be proud of.
 
 
 ### Unfixed Bugs
 
-- I have had major issues with using django for the reservations. I understand that this is a huge part of the project and simply ran out of time to fix the errors i was encountering
+- Sort bar in product view not working
+- Sizes not showing in cart
 
 ## Deployment
+
+- ### Deployment unsuccessful
+
+- Static and media files have not loaded
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-The live link can be found here - [https://e01n.github.io/Good-Taco/]
-
-
-## Further Comments
-- There are limited comments on the development as i had originally started the project in a diffent file witch can be found on my github page
-- I know that this project is not up the scatch. I had a lot of personal issues over the last couple of months with i let get in the way of my studies. I'm quite upset about this but i know that i can develop a better functioning site. I am going to keep working on this project for my portfolio and hopefully get it to a place where i am happy eith it. I am sorry that I didnt create a working version of this site. I will focus more on my studies in the future and not let my personal life get in the way. 
+The live link can be found here - [https://gymelite.herokuapp.com/]
