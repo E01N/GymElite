@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'home',
     'products',
     'bag',
+    'bootstrap4',
     'checkout',
     'profiles',
     'diet_planner',
@@ -80,7 +81,8 @@ TEMPLATES = [
         'DIRS': [
             os.path.join(BASE_DIR, 'templates'),
             os.path.join(BASE_DIR, 'templates', 'allauth'),
-        ],
+            os.path.join(BASE_DIR, 'python3.8.11/site-packages/bootstrap4/templates/bootstrap4'),
+            ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
