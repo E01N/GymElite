@@ -1,39 +1,39 @@
 {% extends "base.html" %}
 {% load static %}
 
-{% block extra_css %}
-    <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
-{% endblock %}
-
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
-        </div>
-    </div>
-{% endblock %}
-
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <hr>
-                <h2 class="logo-font mb-4">Diet Planner</h2>
-                <hr>
-                <p>Calorie needs: {{ calorie_needs }}</p>
-                <h2>Foods</h2>
-                <ul>
-                    {% for food in foods %}
-                        <li>{{ food.name }} ({{ food.calories }} calories, {{ food.protein }}g protein, {{ food.fat }}g fat, {{ food.carbohydrates }}g carbohydrates)</li>
-                    {% endfor %}
-                </ul>
-                <h2>Workout Plan</h2>
-                <ul>
-                    {% for exercise in exercises %}
-                        <li>{{ exercise }}</li>
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
+  <h1>Diet Plan</h1>
+  <form method="post">
+    {% csrf_token %}
+    <label for="age">Age:</label>
+    <input type="number" name="age" id="age" value="{{ request.POST.age }}">
+    <label for="weight">Weight (lbs):</label>
+    <input type="number" name="weight" id="weight" value="{{ request.POST.weight }}">
+    <label for="height">Height (in):</label>
+    <input type="number" name="height" id="height" value="{{ request.POST.height }}">
+    <label for="activity_level">Activity Level:</label>
+    <select name="activity_level" id="activity_level">
+      <option value="sedentary" {% if request.POST.activity_level == 'sedentary' %}selected{% endif %}>Sedentary</option>
+      <option value="lightly_active" {% if request.POST.activity_level == 'lightly_active' %}selected{% endif %}>Lightly Active</option>
+      <option value="moderately_active" {% if request.POST.activity_level == 'moderately_active' %}selected{% endif %}>Moderately Active</option>
+      <option value="very_active" {% if request.POST.activity_level == 'very_active' %}selected{% endif %}>Very Active</option>
+      <option value="extremely_active" {% if request.POST.activity_level == 'extremely_active' %}selected{% endif %}>Extremely Active</option>
+    </select>
+    <label for="goal">Goal:</label>
+    <select name="goal" id="goal">
+      <option value="weight_loss" {% if request.POST.goal == 'weight_loss' %}selected{% endif %}>Weight Loss</option>
+      <option value="maintenance" {% if request.POST.goal == 'maintenance' %}selected{% endif %}>Maintenance</option>
+      <option value="muscle_gain" {% if request.POST.goal == 'muscle_gain' %}selected{% endif %}>Muscle Gain</option>
+    </select>
+    <button type="submit">Calculate</button>
+  </form>
+  {% if calorie_needs %}
+    <h2>Your daily calorie needs: {{ calorie_needs }}</h2>
+    <h2>Recommended foods:</h2>
+    <ul>
+      {% for food in foods %}
+        <li>{{ food.name }} - {{ food.calories }} calories, {{ food.protein }}g protein, {{ food.fat }}g fat, {{ food.carbs }}g carbs</li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 {% endblock %}
