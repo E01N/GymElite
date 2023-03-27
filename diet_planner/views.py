@@ -29,6 +29,35 @@ def update_profile(request, pk):
 
 @login_required
 def diet_plan(request):
+    def calculate_calorie_needs(age, weight, height, gender, activity_level, goal):
+        weight_in_kg = weight / 2.2
+        height_in_cm = height * 2.54
+        if gender == 'male':
+            BMR = 88.362 + (13.397 * weight_in_kg) + (4.799 * height_in_cm) - (5.677 * age)
+        else:
+            BMR = 447.593 + (9.247 * weight_in_kg) + (3.098 * height_in_cm) - (4.330 * age)
+
+        TDEE = BMR
+        if activity_level == 'sedentary':
+            TDEE = BMR * 1.2
+        elif activity_level == 'lightly_active':
+            TDEE = BMR * 1.375
+        elif activity_level == 'moderately_active':
+            TDEE = BMR * 1.55
+        elif activity_level == 'very_active':
+            TDEE = BMR * 1.725
+        else:
+            TDEE = BMR * 1.9
+
+        if goal == 'weight_loss':
+            calorie_needs = TDEE - 500
+        elif goal == 'maintenance':
+            calorie_needs = TDEE
+        else:
+            calorie_needs = TDEE + 500
+
+        return calorie_needs
+
     age = request.POST.get('age')
     if age is not None:
         age = int(age)
@@ -47,59 +76,25 @@ def diet_plan(request):
     else:
         height = 0
 
-    activity_level = request.POST.get('activity_level')
-    if activity_level is not None:
-        activity_level = int(activity_level)
-    else:
-        activity_level = 0
+    activity_level = request.POST.get('activity_level', '')
+    goal = request.POST.get('goal', '')
 
-    goal = request.POST.get('goal')
-    if goal is not None:
-        goal = int(goal)
-    else:
-        goal = 0
-
-    calorie_needs = calculate_calorie_needs(age, weight, height, activity_level, goal)
+    calorie_needs = calculate_calorie_needs(age, weight, height, request.user.userprofile.gender, activity_level, goal)
     if calorie_needs is not None:
         calorie_needs = int(calorie_needs)
     else:
         calorie_needs = 0
 
-    foods = generate_diet_plan(calorie_needs)
+    foods = generate_diet_plan(request.user.userprofile)
+
+    workouts = generate_workout_plan(request.user.userprofile)
 
     return render(request, 'diet_plan.html', {
         'calorie_needs': calorie_needs,
-        'foods': foods
+        'foods': foods,
+        'workouts': workouts
     })
 
-
-def calculate_calorie_needs(age, weight, height, gender, activity_level, goal):
-    weight_in_kg = weight / 2.2
-    height_in_cm = height * 2.54
-    if gender == 'male':
-        BMR = 88.362 + (13.397 * weight_in_kg) + (4.799 * height_in_cm) - (5.677 * age)
-    else:
-        BMR = 447.593 + (9.247 * weight_in_kg) + (3.098 * height_in_cm) - (4.330 * age)
-
-    TDEE = BMR
-    if activity_level == 'sedentary':
-        TDEE = BMR * 1.2
-    elif activity_level == 'lightly_active':
-        TDEE = BMR * 1.375
-    elif activity_level == 'moderately_active':
-        TDEE = BMR * 1.55
-    elif activity_level == 'very_active':
-        TDEE = BMR * 1.725
-    else:
-        TDEE = BMR * 1.9
-
-    if goal == 'weight_loss':
-        calorie_needs = TDEE - 500
-    elif goal == 'maintenance':
-        calorie_needs = TDEE
-    else:
-        calorie_needs = TDEE + 500
-    return calorie_needs
 
 
 def generate_diet_plan(user_profile):
