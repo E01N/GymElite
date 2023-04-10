@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <h1>Your Exercise Plans</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Exercise</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+                <th>Frequency</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for plan in exercise_plans %}
+                <tr>
+                    <td>{{ plan.exercise.name }}</td>
+                    <td>{{ plan.start_date }}</td>
+                    <td>{{ plan.end_date }}</td>
+                    <td>{{ plan.frequency }} times/week</td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="4">No exercise plans found.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

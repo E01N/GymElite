@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <h1>Your Diet Plans</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Diet</th>
+                <th>Start Date</th>
+                <th>End Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for plan in diet_plans %}
+                <tr>
+                    <td>{{ plan.diet.name }}</td>
+                    <td>{{ plan.start_date }}</td>
+                    <td>{{ plan.end_date }}</td>
+                </tr>
+            {% empty %}
+                <tr>
+                    <td colspan="3">No diet plans found.</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
