@@ -178,6 +178,11 @@ a.category-badge > span.badge:hover {
     background: #000 !important;
 }
 
+.diet-form{
+    background-color: white;
+    margin-top: 225px;
+}
+
 /* Media Queries */
 
 /* Slightly larger container on xl screens */
