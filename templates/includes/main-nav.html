@@ -53,8 +53,12 @@
                 diet & exercise plans
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'diet_planner' %}" class="dropdown-item">Full Plans</a>
+                <a href="{% url 'diet_exercise_app:create_diet_plan' %}" class="dropdown-item">Create Diet Plan</a>
+                <a href="{% url 'diet_exercise_app:view_diet_plan' %}" class="dropdown-item">View Diet Plans</a>
+                <a href="{% url 'diet_exercise_app:create_exercise_plan' %}" class="dropdown-item">Create Exercise Plan</a>
+                <a href="{% url 'diet_exercise_app:view_exercise_plan' %}" class="dropdown-item">View Exercise Plans</a>
             </div>
         </li>
+        
     </ul>
 </div>
