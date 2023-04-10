@@ -2,14 +2,28 @@ from django import forms
 from .models import Diet, Exercise, DietPlan, ExercisePlan
 
 
-class DietPlanForm(forms.ModelForm):
+class DietForm(forms.ModelForm):
     class Meta:
         model = Diet
-        fields = ['age', 'gender', 'height_cm', 'weight_lbs', 'goal']
+        fields = ['goal']
+        widgets = {
+            'goal': forms.Select(attrs={'class': 'form-select'}),
+        }
+        labels = {
+            'goal': 'Goal',
+        }
 
 
 class ExercisePlanForm(forms.ModelForm):
     class Meta:
         model = ExercisePlan
-        fields = ['exercise', 'start_date', 'end_date', 'frequency']
+        fields = ['goal', 'duration']
+        widgets = {
+            'goal': forms.Select(choices=ExercisePlan.GOAL_CHOICES, attrs={'class': 'form-select'}),
+            'duration': forms.Select(choices=ExercisePlan.DURATION_CHOICES, attrs={'class': 'form-select'}),
+        }
+        labels = {
+            'goal': 'Goal',
+            'duration': 'Duration',
+        }
 

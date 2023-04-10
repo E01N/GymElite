@@ -2,29 +2,33 @@
 {% load static %}
 
 {% block content %}
-    <h1>Your Exercise Plans</h1>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Exercise</th>
-                <th>Start Date</th>
-                <th>End Date</th>
-                <th>Frequency</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for plan in exercise_plans %}
-                <tr>
-                    <td>{{ plan.exercise.name }}</td>
-                    <td>{{ plan.start_date }}</td>
-                    <td>{{ plan.end_date }}</td>
-                    <td>{{ plan.frequency }} times/week</td>
-                </tr>
-            {% empty %}
-                <tr>
-                    <td colspan="4">No exercise plans found.</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+<div class="container h-100 white-bg">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-md-12 p-3 diet-form">
+            <h1 class="text-center mb-4 text-black">Your Exercise Plans</h1>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Exercise</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for plan in exercise_plans %}
+                        <tr>
+                            <td>{{ plan.exercise.name }}</td>
+                            <td>{{ plan.start_date }}</td>
+                            <td>{{ plan.end_date }}</td>
+                        </tr>
+                    {% empty %}
+                        <tr>
+                            <td colspan="3" class="text-center">No exercise plans found.</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 {% endblock %}

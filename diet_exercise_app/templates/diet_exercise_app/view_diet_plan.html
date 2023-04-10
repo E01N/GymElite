@@ -2,27 +2,57 @@
 {% load static %}
 
 {% block content %}
-    <h1>Your Diet Plans</h1>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Diet</th>
-                <th>Start Date</th>
-                <th>End Date</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for plan in diet_plans %}
-                <tr>
-                    <td>{{ plan.diet.name }}</td>
-                    <td>{{ plan.start_date }}</td>
-                    <td>{{ plan.end_date }}</td>
-                </tr>
-            {% empty %}
-                <tr>
-                    <td colspan="3">No diet plans found.</td>
-                </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+<div class="container h-100 white-bg">
+    <div class="row h-100 justify-content-center align-items-center">
+        <div class="col-md-12 p-3 diet-form">
+            <h1 class="text-center mb-4 text-black">Your Diet Plans</h1>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Diet</th>
+                        <th>Start Date</th>
+                        <th>End Date</th>
+                        <th>Breakfast</th>
+                        <th>Lunch</th>
+                        <th>Dinner</th>
+                        <th>Snack</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for plan in diet_plans %}
+                        <tr>
+                            <td>{{ plan.diet.name }}</td>
+                            <td>{{ plan.start_date }}</td>
+                            <td>{{ plan.end_date }}</td>
+                            <td>
+                                {% for meal in plan.breakfast.all %}
+                                    {{ meal.name }}<br>
+                                {% endfor %}
+                            </td>
+                            <td>
+                                {% for meal in plan.lunch.all %}
+                                    {{ meal.name }}<br>
+                                {% endfor %}
+                            </td>
+                            <td>
+                                {% for meal in plan.dinner.all %}
+                                    {{ meal.name }}<br>
+                                {% endfor %}
+                            </td>
+                            <td>
+                                {% for meal in plan.snack.all %}
+                                    {{ meal.name }}<br>
+                                {% endfor %}
+                            </td>
+                        </tr>
+                    {% empty %}
+                        <tr>
+                            <td colspan="7" class="text-center">No diet plans found.</td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
 {% endblock %}

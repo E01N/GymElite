@@ -24,7 +24,6 @@ urlpatterns = [
     path('', include('home.urls')),
     path('products/', include('products.urls')),
     path('profile/', include('profiles.urls')),
-    path('diet_planner/', include('diet_planner.urls')),
     path('bag/', include('bag.urls')),
     path('checkout/', include('checkout.urls')),
     path('diet_exercise/', include('diet_exercise_app.urls')),
