@@ -56,8 +56,10 @@ INSTALLED_APPS = [
     'checkout',
     'profiles',
     'diet_planner',
+    'diet_exercise_app',
     # Other
     'crispy_forms',
+    'widget_tweaks',
     'storages',
 ]
 
